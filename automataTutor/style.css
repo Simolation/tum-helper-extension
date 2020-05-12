@@ -1,0 +1,19 @@
+.tum-helper.finished {
+  background-color: #74ef74 !important;
+}
+
+.tum-helper.finished > td {
+  background-color: #74ef74 !important;
+}
+
+.tum-helper.remaining {
+  background-color: #fd5d5d !important;
+}
+
+.tum-helper.remaining > td {
+  background-color: #fd5d5d !important;
+}
+
+.tum-helper.over {
+  opacity: 0.6;
+}
