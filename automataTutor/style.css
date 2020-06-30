@@ -2,7 +2,7 @@
   background-color: #74ef74 !important;
 }
 
-.tum-helper.finished > td {
+.tum-helper.finished>td {
   background-color: #74ef74 !important;
 }
 
@@ -10,7 +10,7 @@
   background-color: #fd5d5d !important;
 }
 
-.tum-helper.remaining > td {
+.tum-helper.remaining>td {
   background-color: #fd5d5d !important;
 }
 
