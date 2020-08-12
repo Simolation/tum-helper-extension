@@ -1,6 +1,6 @@
 {
   "name": "TUM Helper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Little helper to improve the daily use of the TUM online services :)",
   "manifest_version": 2,
   "content_scripts": [
@@ -33,10 +33,11 @@
     },
     {
       "matches": [
-        "https://tumidp.lrz.de/*"
+        "https://tumidp.lrz.de/*",
+        "https://login.tum.de/*"
       ],
       "js": [
-        "lrz/script.js"
+        "login-lrz-tum/script.js"
       ]
     }
   ],
