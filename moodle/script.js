@@ -7,7 +7,7 @@
   ) {
     // redirect to the TUMonline login page
     window.location.replace(
-      "https://www.moodle.tum.de/auth/shibboleth/index.php"
+      "https://www.moodle.tum.de/Shibboleth.sso/Login?providerId=https%3A%2F%2Ftumidp.lrz.de%2Fidp%2Fshibboleth&target=https%3A%2F%2Fwww.moodle.tum.de%2Fauth%2Fshibboleth%2Findex.php"
     );
 
     // when already authenticated it will redirect back to moodle else login and then you will be redirected

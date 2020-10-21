@@ -1,6 +1,6 @@
 {
   "name": "TUM Helper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Little helper to improve the daily use of the TUM online services :)",
   "manifest_version": 2,
   "content_scripts": [
@@ -21,14 +21,6 @@
       ],
       "js": [
         "moodle/script.js"
-      ]
-    },
-    {
-      "matches": [
-        "https://campus.tum.de/tumonline/*"
-      ],
-      "js": [
-        "TUMonline/script.js"
       ]
     },
     {
