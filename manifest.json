@@ -31,6 +31,14 @@
       "js": [
         "login-lrz-tum/script.js"
       ]
+    },
+    {
+      "matches": [
+        "https://www.studocu.com/*"
+      ],
+      "css": [
+        "studocu/style.css"
+      ]
     }
   ],
   "icons": {

@@ -1,0 +1,9 @@
+/* Remove blur for certain preview pages */
+div[data-page-no] {
+  filter: none !important;
+}
+
+/* Hide preview banner */
+div[class^='preview-banner'] {
+  display: none;
+}
