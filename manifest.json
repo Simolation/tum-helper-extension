@@ -1,8 +1,8 @@
 {
   "name": "TUM Helper",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Little helper to improve the daily use of the TUM online services :)",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "content_scripts": [
     {
       "matches": [
